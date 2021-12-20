@@ -8,15 +8,12 @@ li {
   padding: 0;
 }
 
-.section {
-  height: 100vh;
-  width: 100%;
-
+body {
   background: linear-gradient(to right, #4b5d64, #1a363f, #0f2027);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
   color: #fff;
 }
 
@@ -42,7 +39,7 @@ li {
   font-family: "Roboto", sans-serif;
   color: #333;
   font-size: 1.2rem;
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
   padding: 0.7rem 1.3rem;
   border-radius: 0.3rem;
   background-color: rgb(255, 255, 255);
